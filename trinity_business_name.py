@@ -28,7 +28,7 @@ def main():
         try:
             submit_form("Foody mcFoodPlace")
         except:
-            print ("Error I guess, but really nothing to worry about bruh")
+            print ("Error submitting form, retrying...")
     
 if __name__== "__main__":
     main()
